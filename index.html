@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil – Tamara Yambode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- POPUP AKWABA -->
+    <div id="akwaba-popup" class="popup">AKWABA ✨</div>
+
+    <!-- ===================== NAVBAR ====================== -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="logo.jpeg" alt="Logo Tamara Yambode" class="logo-img">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="entreprenante.html">Entreprenante</a></li>
+                <li><a href="engagee.html">Engagée</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===================== HERO ====================== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bienvenue dans mon univers ✨</h1>
+            <p class="hero-subtitle">
+                Je suis <strong>TAMARA YAMBODE</strong>, passionnée de technologie, d’entrepreneuriat, 
+                de culture africaine et d’engagement spirituel.
+            </p>
+            <a href="projets.html" class="btn-hero">Voir mes projets</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="photoacceuil.jpeg" alt="Photo d'accueil Tamara">
+        </div>
+    </section>
+
+    <!-- ===================== À PROPOS RAPIDE ====================== -->
+    <section class="section-bloc">
+        <h2 class="section-title">À propos</h2>
+
+        <div class="about-mini">
+            <img src="profil-tamara.jpeg" class="about-mini-photo">
+            <div>
+                <p>
+                    Je suis une jeune femme passionnée par le numérique, la créativité et la transmission.
+                    Mon univers se construit autour de l’entrepreneuriat, du digital, de la culture africaine 
+                    et de mon engagement spirituel en CHRIST.
+                </p>
+                <a href="apropos.html" class="btn-simple">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJETS CARDS ====================== -->
+    <section class="section-bloc">
+        <h2 class="section-title">Mes Projets</h2>
+
+        <div class="cards-projets">
+            <div class="card">
+                <img src="projetheritage.jpeg">
+                <h3>Transmission & Héritage capillaire</h3>
+                <a href="projets.html" class="btn-card">Voir</a>
+            </div>
+
+            <div class="card">
+                <img src="projetreina.jpeg">
+                <h3>Entrepreneuriat – REINA KREMA</h3>
+                <a href="projets.html" class="btn-card">Voir</a>
+            </div>
+
+            <div class="card">
+                <img src="projetevangeliste.jpeg">
+                <h3>Engagement & Évangélisation</h3>
+                <a href="projets.html" class="btn-card">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FORMULAIRE DE CONTACT ====================== -->
+    <section class="formulaire-accueil">
+        <div class="contact-box">
+            <h2 class="section-title">Me contacter</h2>
+
+            <form id="contactForm" class="form-contact">
+                <input type="text" id="nom" placeholder="Votre nom">
+                <input type="email" id="email" placeholder="Votre email">
+                <input type="tel" id="telephone" placeholder="Téléphone / WhatsApp">
+
+                <select id="sujet">
+                    <option value="">Sujet du message</option>
+                    <option>Projet</option>
+                    <option>Collaboration</option>
+                    <option>Capillaire</option>
+                    <option>Spirituel</option>
+                </select>
+
+                <textarea id="message" placeholder="Votre message"></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" id="accepter">
+                    J’accepte d’être contactée
+                </label>
+
+                <button type="submit">Envoyer</button>
+
+                <p id="successMessage" style="display:none; color:#4C7C59; margin-top:12px;"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ====================== -->
+    <footer>
+        <p>Designed by TAMARA YAMBODE — Tous droits réservés © 2025</p>
+    </footer>
+
+    <!-- 🔗 Lien vers ton JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

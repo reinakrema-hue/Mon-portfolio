@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Tamara Yambode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===================== HEADER ====================== -->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logo.jpeg" class="logo-img">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="entreprenante.html">Entreprenante</a></li>
+            <li><a href="engagee.html">Engagée</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===================== FORMULAIRE ====================== -->
+<section class="contact-section">
+    <h1>Contactez-moi</h1>
+    <p class="contact-intro">Pour un projet, une collaboration ou toute autre demande.</p>
+
+    <form id="contactForm" class="contact-form">
+
+        <!-- Nom -->
+        <label>Nom *</label>
+        <input type="text" id="nom" placeholder="Votre nom">
+
+        <!-- Email -->
+        <label>Email *</label>
+        <input type="email" id="email" placeholder="Votre adresse email">
+
+        <!-- Téléphone -->
+        <label>Téléphone / WhatsApp *</label>
+        <input type="text" id="telephone" placeholder="Votre numéro">
+
+        <!-- Sujet (liste déroulante) -->
+        <label>Sujet du message *</label>
+        <select id="sujet">
+            <option value="">-- Choisir un sujet --</option>
+            <option value="prise de contact">Prise de contact</option>
+            <option value="demande d'information">Demande d’information</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="autre">Autre</option>
+        </select>
+
+        <!-- Type de demande -->
+        <label>Type de demande *</label>
+        <select id="type">
+            <option value="">-- Sélectionner --</option>
+            <option value="Projet">Projet</option>
+            <option value="Collaboration">Collaboration</option>
+            <option value="Capillaire">Capillaire</option>
+            <option value="Spirituel">Spirituel</option>
+        </select>
+
+        <!-- Message -->
+        <label>Message *</label>
+        <textarea id="message" placeholder="Votre message..." rows="6"></textarea>
+
+        <!-- Checkbox -->
+        <div class="checkbox-area">
+            <input type="checkbox" id="accepter">
+            <label for="accepter">J'accepte d’être contactée *</label>
+        </div>
+
+        <!-- Bouton -->
+        <button type="submit" class="btn-form">Envoyer</button>
+
+        <!-- Message de validation -->
+        <p id="successMessage" class="success-message"></p>
+
+    </form>
+</section>
+
+<!-- ===================== FOOTER ====================== -->
+    <footer>
+        <p>Designed by TAMARA YAMBODE — Tous droits réservés © 2025</p>
+    </footer>
+
+    <!-- SCRIPT JS ICI -->
+    <script src="script.js"></script>
+</body>
+</html>
