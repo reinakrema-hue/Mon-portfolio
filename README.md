@@ -1,4 +1,4 @@
-Bienvenue sur mon portfolio professionnel.
+Bienvenue sur mon portfolio professionnel
 
 Je suis diplômée d'un Master 2 en Audit & Finance d'Entreprise. Mon parcours associe finance, audit, gestion des risques, gestion de projet et transformation digitale.
 
